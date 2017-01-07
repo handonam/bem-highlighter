@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "import/no-extraneous-dependencies": ["off"],
+    "import/no-unresolved": ["off"],
+    "import/imports-first": ["off"],
+    "import/extensions": ["off"],
+    // Lets allow import statements to excede our max-len of 100
+    "max-len": ["error", 100, { "ignorePattern": "^import\\s.+\\sfrom\\s.+;$" }],
+    "func-names": ["warn", "always"],
+    "prefer-arrow-callback": ["warn"],
+    "quote-props": ["error", "consistent-as-needed"],
+    "comma-dangle": ["error", "never"],
+  }
+}

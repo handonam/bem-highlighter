@@ -1,0 +1,20 @@
+{
+  "name": "bem-highlighter",
+  "main": "./lib/bem-highlighter",
+  "version": "0.0.0",
+  "description": "Exercising Atom's Decoration API",
+  "repository": "https://github.com/atom/bem-highlighter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0"
+  }
+}

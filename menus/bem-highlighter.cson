@@ -1,0 +1,17 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor, .overlayer': [
+    {label: 'Enable bem-highlighter', command: 'bem-highlighter:toggle'}
+  ]
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'bem-highlighter'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'bem-highlighter:toggle' }
+      ]
+    ]
+  }
+]
