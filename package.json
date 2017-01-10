@@ -8,6 +8,13 @@
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
+  "keywords": [
+    "bem",
+    "less",
+    "sass",
+    "scss",
+    "css"
+  ],
   "devDependencies": {
     "eslint": "^3.13.0",
     "eslint-config-airbnb": "^13.0.0",
